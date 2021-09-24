@@ -1,0 +1,33 @@
+Sep 17, 2021 12:05:45 AM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: DOCKER1
+Sep 17, 2021 12:05:45 AM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+Sep 17, 2021 12:05:45 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 4.10
+Sep 17, 2021 12:05:45 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /Users/peter.lu/Documents/plu_shopstyle/plu_workspace/jenkinsagent/remoting as a remoting work directory
+Sep 17, 2021 12:05:45 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Sep 17, 2021 12:05:46 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50000
+  Identity:      58:b5:9d:a0:1d:2c:fb:c2:03:71:2f:bc:3c:03:0f:bf
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:50000
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Sep 17, 2021 12:05:46 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 58:b5:9d:a0:1d:2c:fb:c2:03:71:2f:bc:3c:03:0f:bf
+Sep 17, 2021 12:05:46 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Sep 19, 2021 11:41:37 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Sep 19, 2021 11:41:47 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused
